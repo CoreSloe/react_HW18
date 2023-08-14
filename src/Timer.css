@@ -1,0 +1,54 @@
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2016/11/11/19/46/abstract-1817584_1280.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.timer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.timer {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #d0ffdc;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: #f0f0f0;
+  box-shadow: 0px 0px 70px #1fb138;
+  transition: background-color 0.3s ease;
+}
+
+.running {
+  background-color: #c8e6c9;
+}
+
+.paused {
+  background-color: #ff9994;
+  box-shadow: 0px 0px 70px #f95252;
+  border: 2px solid #f5604c;
+}
+
+.timer-display {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.timer-button {
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.timer-button:hover {
+  background-color: #0056b3;
+}
